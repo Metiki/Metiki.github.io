@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Working paper (Last updated November 2026)\n\nExport booms can increase household resources or strengthen dependence on benefits controlled by the state. I examine their relationship with democratic demand across African districts where farming is more or less common. The analysis links fixed crop maps and world prices to 125,659 Afrobarometer respondents in 22 countries between 2005 and 2022. With country-round fixed effects and expected-exposure controls, a one-standard-deviation three-year boom has a fitted demand response 0.025 standard deviations more positive where the district farming share is 25 percentage points higher. Crop-history tests allowing an unknown common linear boom effect give probabilities of 0.061 in the full sample and 0.042 without Mali’s post-coup survey; neither rejects at the 10 percent level after adjustment across the control comparisons. These post hoc tests require exchangeable price histories and valid fixed conditioning information. Additional controls and cotton exclusion leave positive but uncertain estimates. Aligned area-level consumption comparisons do not verify an accompanying resource gain. Consumption is imputed and not jointly observed with attitudes, leaving income transmission unresolved. The geographic pattern makes the distribution of potential export gains relevant to democratic preferences, while remaining compatible with both household independence and geographically unequal state benefits."
+  },
+  {
+    "objectID": "research.html#job-market-paper",
+    "href": "research.html#job-market-paper",
+    "title": "Research",
+    "section": "",
+    "text": "Working paper (Last updated November 2026)\n\nExport booms can increase household resources or strengthen dependence on benefits controlled by the state. I examine their relationship with democratic demand across African districts where farming is more or less common. The analysis links fixed crop maps and world prices to 125,659 Afrobarometer respondents in 22 countries between 2005 and 2022. With country-round fixed effects and expected-exposure controls, a one-standard-deviation three-year boom has a fitted demand response 0.025 standard deviations more positive where the district farming share is 25 percentage points higher. Crop-history tests allowing an unknown common linear boom effect give probabilities of 0.061 in the full sample and 0.042 without Mali’s post-coup survey; neither rejects at the 10 percent level after adjustment across the control comparisons. These post hoc tests require exchangeable price histories and valid fixed conditioning information. Additional controls and cotton exclusion leave positive but uncertain estimates. Aligned area-level consumption comparisons do not verify an accompanying resource gain. Consumption is imputed and not jointly observed with attitudes, leaving income transmission unresolved. The geographic pattern makes the distribution of potential export gains relevant to democratic preferences, while remaining compatible with both household independence and geographically unequal state benefits."
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\n\n\nEstimating Middle-Class Shares in Afrobarometer Using Survey-to-Survey Imputation\nWorking paper (Last updated October 2026)\n\nAfrobarometer, the pan-African survey of political attitudes, records neither income nor consumption, so it cannot identify the middle class it is used to study. I supply the missing measure by survey-to-survey imputation from expenditure surveys, for 302,595 respondents in 42 countries, keeping the imputation’s uncertainty and setting each country’s level in each round to the World Bank’s poverty figures. Held-out expenditure surveys confirm that it recovers poverty and middle-class shares. Over 2005–2023, five published definitions place 12.6 to 69.8 percent of households at or above their middle-class floor: the broadest count the group just above the poverty line, which lives much like the poor. Converting the definitions’ dollar lines to current prices moves the $2 poverty count by 17.3 points, far more than its standard error. Countries joining the survey later account for 38.9 percent of apparent middle-class growth. The measure supports shares and trends but not individual labels, and I release it with its uncertainty.\n\n\n\n\n\n\nMapping Africa’s Middle Class Across Space\nwith Tobias Heidland\nWorking paper (Last updated November 2026)\n\nWe provide the first highly granular mapping of the African middle class. Using incomes from the Gallup World Poll to calculate subnational middle-class shares in 45 countries between 2015 and 2023, infrastructure, night lights, population, and gridded measures of output and wealth, we then use a machine learning approach to predict shares for 159,698 populated cells. In leave-one-country-out cross-validation, the model explains 72 percent of the regional variation in the share of people living on $2–10 a day and 62 percent for $10–100 a day. Our approach cannot predict relative definitions well. We find that 20.2 percent of Africans fall in the $2–10 band and 2.6 percent in the $10–100 band. Two-thirds of both groups live within 300 km of the coast. Both are concentrated in regions where aid disbursements are small relative to GDP."
+  },
+  {
+    "objectID": "research.html#under-review",
+    "href": "research.html#under-review",
+    "title": "Research",
+    "section": "Under Review",
+    "text": "Under Review\n\n\n\nPreparing for FX Intervention\nwith Tobias Heidland and Lukas Menkhoff\nJournal of Money, Credit and Banking, Revise and Resubmit (Last updated November 2026)\n\nMost central banks do not publish their foreign exchange interventions (FXI), but the preparations that enable their interventions are visible. We measure FXI preparedness through three policy decisions, namely the rigidity of the exchange rate regime, the level of official reserves and the share of reserves held in assets available for intervention. For the last of these, we build a new index from the IMF’s data on reserve composition. Better-prepared countries intervene more, so preparedness indicates a willingness to intervene where intervention data are not published. Between 2001 and 2020, preparedness rose with more rigid regimes and larger reserves, while aggregate intervention did not keep pace. Preparedness is higher in economies with lower income, greater trade openness and more volatile portfolio inflows."
+  },
+  {
+    "objectID": "data-products.html",
+    "href": "data-products.html",
+    "title": "Data Products",
+    "section": "",
+    "text": "African Middle-Class Shares\nComing soon\nCountry-level middle-class shares under five published definitions, built from consumption imputed for 302,595 Afrobarometer respondents in 42 countries (2005–2023) and released with their uncertainty. The method is described in Estimating Middle-Class Shares in Afrobarometer Using Survey-to-Survey Imputation."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Feel free to reach out by email: sekou.metiki[at]kielinstitut.de\nI am always open to research collaboration, in particular on measuring living standards and the middle class in Africa and on the political economy of development.\n\nSocial Media\nTo stay updated on my research and data products, you can follow me on LinkedIn and GitHub.\n\n\n  \n    \n  \n  \n    \n  \n\n\n\nAffiliations\nKiel Institute for the World Economy\nResearch Center International Development\nKiel University (CAU)\nPhD in Quantitative Economics\n\n\nAddress\nKiel Institute for the World Economy\nKiellinie 66\n24105 Kiel\nGermany"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV (PDF)\n\n  Your browser cannot display the PDF. Download it here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sékou Metiki",
+    "section": "",
+    "text": "Photo: © Kiel Institute / Michael Stefan\n\n\n\nSékou Metiki\n\nI am a PhD researcher at the Kiel Institute for the World Economy, and I expect to complete my PhD at Kiel University (CAU) at the end of 2026.\nMy research produces reliable data on Africa where such data are scarce, particularly on poverty, inequality and the size of the middle class. I combine household surveys, satellite imagery, infrastructure data and machine learning to estimate consumption and middle-class shares across African countries under competing definitions. I also worked in the DYNAMIG project, which collected primary data through a multi-country online survey on living conditions and migration attitudes in Africa.\nBuilding on these measures, I study the political economy of development. In my job market paper, I examine how export booms relate to the demand for democracy across African districts, linking crop maps and world prices to Afrobarometer respondents.\nI also work on international macroeconomics. I study how central banks prepare for foreign exchange intervention through their exchange rate regime, the level of their reserves and the share of reserves available for intervention.\nFinally, I build reproducible research pipelines for African microdata."
+  }
+]
