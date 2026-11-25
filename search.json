@@ -4,14 +4,14 @@
     "href": "afrobarometer-harmonized-variables.html",
     "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
     "section": "",
-    "text": "A mapping of Afrobarometer’s questions across nine rounds, with the code that rebuilds the harmonized file.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Paper"
+    "text": "This release maps Afrobarometer’s questions across nine rounds and includes the code that rebuilds the harmonized file.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Paper"
   },
   {
     "objectID": "afrobarometer-harmonized-variables.html#the-release",
     "href": "afrobarometer-harmonized-variables.html#the-release",
     "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
     "section": "The release",
-    "text": "The release\nAfrobarometer’s round files name and code the same question differently across rounds. The record maps the 1,897 round variables that recur in at least two of Rounds 1 to 9 onto 386 common variables, with each round’s question text. It also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.\n\n\n\n\n\n\n\nFile\nContent\n\n\n\n\nafrobarometer_merged_codebook_R1_R9.csv\nthe mapping: one row per round variable that recurs in at least two rounds\n\n\npredictor_comparability_R3_R9.csv\ncomparability codes by round for the predictors of the paper’s consumption model\n\n\nafrobarometer_harmonization_code.zip\nthe code that rebuilds the harmonized file, and my original scripts\n\n\nverify_harmonization.csv\nthe 26 comparisons of the rebuild against my original files, all passed\n\n\nREADME.md, LICENSE, MANIFEST.sha256\ndocumentation, the MIT license of the code and the checksums"
+    "text": "The release\nAfrobarometer’s round files name and code the same question differently across rounds. The mapping assigns the 1,897 round variables that recur in at least two of Rounds 1 to 9 to 386 common variables, with each round’s question text. The release also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.\n\n\n\n\n\n\n\nFile\nContent\n\n\n\n\nafrobarometer_merged_codebook_R1_R9.csv\nthe mapping: one row per round variable that recurs in at least two rounds\n\n\npredictor_comparability_R3_R9.csv\ncomparability codes by round for the predictors of the paper’s consumption model\n\n\nafrobarometer_harmonization_code.zip\nthe code that rebuilds the harmonized file, and my original scripts\n\n\nverify_harmonization.csv\nthe 26 comparisons of the rebuild against my original files, all passed\n\n\nREADME.md, LICENSE, MANIFEST.sha256\ndocumentation, the MIT license of the code and the checksums"
   },
   {
     "objectID": "afrobarometer-harmonized-variables.html#the-mapping",
@@ -88,7 +88,7 @@
     "href": "africa-middle-class-cell-data.html#the-atlas",
     "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
     "section": "The Atlas",
-    "text": "The Atlas\nThe African Middle-Class Atlas shows the same data as an interactive map, which follows with its launch."
+    "text": "The Atlas\nThe African Middle-Class Atlas shows the same data as an interactive map. The map will be linked here when it goes online."
   },
   {
     "objectID": "economic-class-in-afrobarometer.html",
@@ -151,7 +151,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "E-mail: sekou.metiki@kielinstitut.de\nI welcome questions on the papers and the data, and proposals for joint work on living standards in Africa and on the political economy of development."
+    "text": "E-mail: sekou.metiki@kielinstitut.de\nPlease write to me with questions on my papers or my data. I also welcome proposals for joint work on living standards in Africa and on the political economy of development."
   },
   {
     "objectID": "contact.html#profiles",
@@ -179,35 +179,42 @@
     "href": "data-products.html",
     "title": "Data and Atlas",
     "section": "",
-    "text": "Three data releases on Zenodo accompany my papers on the middle class in Africa. The cell-level data rest on incomes from the Gallup World Poll, and the economic-class shares rest on consumption imputed into Afrobarometer. The two welfare measures differ, and each set of shares stands on its own."
+    "text": "I publish the data behind my papers on Africa’s middle class. Three releases are on Zenodo, and the Atlas shows the first of them as an interactive map. The cell-level data use incomes from the Gallup World Poll, while the economic-class shares use consumption imputed into Afrobarometer. Income and consumption are different measures of welfare, and each set of shares is meant to be used on its own."
   },
   {
     "objectID": "data-products.html#the-african-middle-class-atlas",
     "href": "data-products.html#the-african-middle-class-atlas",
     "title": "Data and Atlas",
     "section": "The African Middle-Class Atlas",
-    "text": "The African Middle-Class Atlas\nwith Tobias Heidland\n\nAn interactive map of Africa’s middle class: for every populated cell, the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells of 96 km²\n  55 countries\n  6 income definitions\n\nThe data behind the map are public on Zenodo: the predicted shares of every cell, 2015–2023, with sums by country, province and district. The interactive map follows with its launch. The method is described in Mapping Africa’s Middle Class Across Space.\nCell-level data: version 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998"
+    "text": "The African Middle-Class Atlas\nwith Tobias Heidland\n\nThe Atlas is an interactive map that shows where Africa’s middle class lives. For every populated cell of the continent, it gives the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells of 96 km²\n  55 countries\n  6 income definitions\n\nThe map can be used to locate consumer markets and to study market size and firm location. Its data are public on Zenodo: the predicted shares of every cell for the period 2015–2023, with sums by country, province and district. The map itself will be linked here when it goes online. The paper Mapping Africa’s Middle Class Across Space describes the method.\nCell-level data: version 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998"
   },
   {
     "objectID": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
     "href": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
     "title": "Data and Atlas",
     "section": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
-    "text": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9\n\nThe class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.\n\n\n  302,595 respondents in the household series, Rounds 3 to 9\n  100,113 respondents in the adult series, Rounds 8 and 9\n  49 household-expenditure surveys behind the model\n\nThe household series covers 42 countries and 215 country-rounds, and the adult series covers 39 countries and 73 country-rounds. The shares come from consumption imputed into Afrobarometer with a model estimated on 49 household-expenditure surveys in 25 countries. The respondent-level files are available on request under Afrobarometer’s terms. The method is described in Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nMetiki, S. (2026). Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453161.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
+    "text": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9\n\nAfrobarometer, the principal pan-African attitude survey, omits consumption and income. I impute consumption into the survey and publish the class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.\n\n\n  302,595 respondents in the household series, Rounds 3 to 9\n  100,113 respondents in the adult series, Rounds 8 and 9\n  49 household-expenditure surveys behind the model\n\nThe household series covers 42 countries and 215 country-rounds, and the adult series covers 39 countries and 73 country-rounds. The imputation model is estimated on 49 household-expenditure surveys in 25 countries. I share the respondent-level files on request under Afrobarometer’s terms. The paper Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation describes the method.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nMetiki, S. (2026). Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453161.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
   },
   {
     "objectID": "data-products.html#harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19",
     "href": "data-products.html#harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19",
     "title": "Data and Atlas",
     "section": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
-    "text": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9\n\nA mapping of Afrobarometer’s questions across nine rounds, with the code that rebuilds the harmonized file.\n\n\n  1,897 round variables\n  386 common variables\n  9 rounds of Afrobarometer\n\nAfrobarometer’s round files name and code the same question differently across rounds. The record maps the 1,897 round variables that recur in at least two of Rounds 1 to 9 onto 386 common variables, with each round’s question text. It also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Files and method · Paper\n\n\nCite\n\nMetiki, S. (2026). Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453208.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
+    "text": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9\n\nAfrobarometer names and codes the same question differently from round to round. This release maps its questions across nine rounds and includes the code that rebuilds the harmonized file.\n\n\n  1,897 round variables\n  386 common variables\n  9 rounds of Afrobarometer\n\nThe mapping assigns the 1,897 round variables that recur in at least two of Rounds 1 to 9 to 386 common variables, with each round’s question text. The release also codes the comparability of the consumption model’s predictors by round. The code runs on the round files that users download from Afrobarometer.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Files and method · Paper\n\n\nCite\n\nMetiki, S. (2026). Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453208.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sékou Metiki",
     "section": "",
-    "text": "Photo: © Kiel Institute / Michael Stefan\n\n\n\nSékou Metiki\n\n\nJob market candidate 2026/27\n\n\n\n\nI measure the middle class in Africa where household data are limited, and I study how export booms relate to citizens’ demand for democracy.\n\n\n  Curriculum vitae\n  Job market paper\n  E-mail\n\n\nPhoto: © Kiel Institute / Michael Stefan"
+    "text": "Photo: © Kiel Institute / Michael Stefan\n\n\n\nSékou Metiki\n\n\nJob market candidate 2026/27\n\n\n\n\nI estimate where Africa’s middle class lives and who belongs to it, and I ask whether export booms strengthen citizens’ demand for democracy.\n\n\n  Curriculum vitae\n  Job market paper\n  E-mail\n\n\nPhoto: © Kiel Institute / Michael Stefan"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Sékou Metiki",
+    "section": "About",
+    "text": "About\nI am a researcher at the Kiel Institute for the World Economy and a doctoral candidate in Quantitative Economics at Kiel University, where I submitted my dissertation in November 2026. My research is in development economics and political economy, and most of it is on African countries.\nMost African countries lack the tax and administrative-register data used to record incomes in high-income countries, and household surveys that measure consumption are expensive and infrequent. Much of my work therefore starts with measurement. With Tobias Heidland, I map where Africa’s middle class lives: a machine-learning model predicts middle-class shares for almost 160,000 populated cells from survey incomes, infrastructure, night lights and population data. In a second paper, I impute household consumption into Afrobarometer, the principal pan-African attitude survey. The data of both papers are public on Zenodo.\nI use these measures to study how economic gains relate to political attitudes. My job market paper asks whether citizens’ demand for democracy changes when export gains are more likely to reach households. A separate paper with Tobias Heidland and Lukas Menkhoff measures how central banks prepare for foreign exchange intervention and has been revised and resubmitted to the Journal of Money, Credit and Banking."
   },
   {
     "objectID": "index.html#job-market-paper",
@@ -221,7 +228,7 @@
     "href": "index.html#interactive-map",
     "title": "Sékou Metiki",
     "section": "Interactive map",
-    "text": "Interactive map\n\n\nThe African Middle-Class Atlas\nwith Tobias Heidland\n\nAn interactive map of Africa’s middle class: for every populated cell, the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells\n  55 countries\n  6 income definitions\n\nThe cell-level data, version 1.0 of 23 November 2026, are public on Zenodo. The interactive map follows with its launch.\nData · Paper"
+    "text": "Interactive map\n\n\nThe African Middle-Class Atlas\nwith Tobias Heidland\n\nThe Atlas is an interactive map that shows where Africa’s middle class lives. For every populated cell of the continent, it gives the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells\n  55 countries\n  6 income definitions\n\nThe data behind the map are public on Zenodo (version 1.0, 23 November 2026). The map itself will be linked here when it goes online.\nData · Paper"
   },
   {
     "objectID": "index.html#more-research",
@@ -235,14 +242,14 @@
     "href": "index.html#open-data",
     "title": "Sékou Metiki",
     "section": "Open data",
-    "text": "Open data\n\n\nEconomic Class of Afrobarometer Respondents\nThe class shares of every country and country-round under five published middle-class definitions, Rounds 3 to 9.\nData\n\n\nHarmonized Afrobarometer Variables\nA mapping of 1,897 round variables onto 386 common variables across Rounds 1 to 9, with the code that rebuilds the harmonized file.\nMapping and code\n\n\nCell-level data of the Atlas\nPredicted middle-class shares for 159,698 populated cells in 55 African countries, with sums by country, province and district.\nData"
+    "text": "Open data\n\n\nEconomic Class of Afrobarometer Respondents\nFor Afrobarometer Rounds 3 to 9, the release gives the class shares of every country and country-round under five published middle-class definitions.\nData\n\n\nHarmonized Afrobarometer Variables\nAfrobarometer names and codes the same question differently from round to round. The release maps 1,897 round variables onto 386 common variables for Rounds 1 to 9, with the code that rebuilds the harmonized file.\nMapping and code\n\n\nCell-level data of the Atlas\nThe files hold the predicted middle-class shares of 159,698 populated cells in 55 African countries, with sums by country, province and district.\nData"
   },
   {
     "objectID": "index.html#recent",
     "href": "index.html#recent",
     "title": "Sékou Metiki",
     "section": "Recent",
-    "text": "Recent\n\n  Nov 2026Dissertation submitted at Kiel University\n  Nov 2026Three data releases on Zenodo\n  Nov 2026Preparing for FX Intervention resubmitted to the Journal of Money, Credit and Banking"
+    "text": "Recent\n\n  Nov 2026I submitted my dissertation, The Missing Middle: Africa's Middle Class and the Demand for Democracy, at Kiel University.\n  Nov 2026Three data releases are public on Zenodo: the cell-level data of the Atlas and two releases on Afrobarometer.\n  Nov 2026With Tobias Heidland and Lukas Menkhoff, I resubmitted Preparing for FX Intervention to the Journal of Money, Credit and Banking."
   },
   {
     "objectID": "research.html",
@@ -333,14 +340,14 @@
     "href": "mapping-africas-middle-class.html#data",
     "title": "Mapping Africa’s Middle Class Across Space",
     "section": "Data",
-    "text": "Data\n\nMapping Africa’s Middle Class Across Space: cell-level data: predicted middle-class shares for 159,698 populated cells in 55 African countries, with sums by country, province and district.\nThe African Middle-Class Atlas: the same data as an interactive map, which follows with its launch."
+    "text": "Data\n\nMapping Africa’s Middle Class Across Space: cell-level data: predicted middle-class shares for 159,698 populated cells in 55 African countries, with sums by country, province and district.\nThe African Middle-Class Atlas: the same data as an interactive map, to be linked when it goes online."
   },
   {
     "objectID": "afrobarometer-economic-class-data.html",
     "href": "afrobarometer-economic-class-data.html",
     "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
     "section": "",
-    "text": "The class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
+    "text": "The release gives the class shares of every country and country-round of Afrobarometer under five published middle-class definitions, with each component of their standard errors.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
   },
   {
     "objectID": "afrobarometer-economic-class-data.html#the-release",
@@ -375,6 +382,6 @@
     "href": "afrobarometer-economic-class-data.html#related-data",
     "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
     "section": "Related data",
-    "text": "Related data\n\nHarmonized Afrobarometer Variables: the cross-round mapping of Afrobarometer’s variables on which the release builds, with the code that rebuilds the harmonized file.\nMapping Africa’s Middle Class Across Space: cell-level data: middle-class shares from Gallup World Poll incomes. The two welfare measures differ, consumption here and income there, and each set of shares stands on its own."
+    "text": "Related data\n\nHarmonized Afrobarometer Variables: the cross-round mapping of Afrobarometer’s variables on which the release builds, with the code that rebuilds the harmonized file.\nMapping Africa’s Middle Class Across Space: cell-level data: middle-class shares from Gallup World Poll incomes. Consumption here and income there are different measures of welfare, and each set of shares is meant to be used on its own."
   }
 ]
