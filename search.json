@@ -1,45 +1,206 @@
 [
   {
-    "objectID": "atlas.html",
-    "href": "atlas.html",
-    "title": "The African Middle-Class Atlas",
+    "objectID": "afrobarometer-harmonized-variables.html",
+    "href": "afrobarometer-harmonized-variables.html",
+    "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
     "section": "",
-    "text": "This address forwards to the African Middle-Class Atlas."
+    "text": "A mapping of Afrobarometer’s questions across nine rounds, with the code that rebuilds the harmonized file.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Paper"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "afrobarometer-harmonized-variables.html#the-release",
+    "href": "afrobarometer-harmonized-variables.html#the-release",
+    "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
+    "section": "The release",
+    "text": "The release\nAfrobarometer’s round files name and code the same question differently across rounds. The record maps the 1,897 round variables that recur in at least two of Rounds 1 to 9 onto 386 common variables, with each round’s question text. It also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.\n\n\n\n\n\n\n\nFile\nContent\n\n\n\n\nafrobarometer_merged_codebook_R1_R9.csv\nthe mapping: one row per round variable that recurs in at least two rounds\n\n\npredictor_comparability_R3_R9.csv\ncomparability codes by round for the predictors of the paper’s consumption model\n\n\nafrobarometer_harmonization_code.zip\nthe code that rebuilds the harmonized file, and my original scripts\n\n\nverify_harmonization.csv\nthe 26 comparisons of the rebuild against my original files, all passed\n\n\nREADME.md, LICENSE, MANIFEST.sha256\ndocumentation, the MIT license of the code and the checksums"
+  },
+  {
+    "objectID": "afrobarometer-harmonized-variables.html#the-mapping",
+    "href": "afrobarometer-harmonized-variables.html#the-mapping",
+    "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
+    "section": "The mapping",
+    "text": "The mapping\nThe original round files contain 2,954 variables. The 1,897 that recur in at least two rounds are mapped onto 386 common variables. A language model proposed cross-round matches from the question and label texts, and I checked every proposed match in each round against the variable name, the codebook entry and the question wording. The 1,887 written rules of the code reproduce the checked mapping. Appendix B of Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation documents the rules and their verification.\nThe wording or the scope of a question can change while its common name stays. The comparability codes follow the scheme of Fortier et al. (2017) and compare Afrobarometer’s rounds with each other for the predictors of the consumption model."
+  },
+  {
+    "objectID": "afrobarometer-harmonized-variables.html#license",
+    "href": "afrobarometer-harmonized-variables.html#license",
+    "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
+    "section": "License",
+    "text": "License\nThe code is licensed under the MIT license. The mapping, the comparability codes and the documentation are licensed under CC BY 4.0. The question texts in the mapping are quoted from Afrobarometer’s public codebooks and remain Afrobarometer’s. The round files are obtained from Afrobarometer under its terms."
+  },
+  {
+    "objectID": "afrobarometer-harmonized-variables.html#related-data",
+    "href": "afrobarometer-harmonized-variables.html#related-data",
+    "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
+    "section": "Related data",
+    "text": "Related data\n\nEconomic Class of Afrobarometer Respondents: the economic-class release built on the harmonized file, with the class shares of every country and country-round under five published middle-class definitions."
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html",
+    "href": "africa-middle-class-cell-data.html",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
     "section": "",
-    "text": "Download CV (PDF)\n\n  Your browser cannot display the PDF. Download it here."
+    "text": "with Tobias Heidland\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "africa-middle-class-cell-data.html#the-release",
+    "href": "africa-middle-class-cell-data.html#the-release",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "The release",
+    "text": "The release\nThe release holds the predicted middle-class shares of 159,698 populated cells of 96 km² in 55 African countries, under six income definitions, with their sums for countries, provinces and districts. The data accompany the paper Mapping Africa’s Middle Class Across Space and are public on Zenodo. They describe the period 2015–2023 as a whole.\n\n\n\n\n\n\n\nFile\nContent\n\n\n\n\ncells.csv.gz, cells.parquet\none row per populated cell: identifiers, population and, for each definition, the share, the number of middle-class people and the disagreement of the learners\n\n\ncells.gpkg\nthe same table with the hexagon of each cell, for GIS software\n\n\naggregates.zip\npopulation, shares and middle-class numbers by country, by province and by district (first- and second-level administrative units of GADM)\n\n\nrobustness.zip\ncell shares before the district adjustment, and cell shares from models trained without gridded GDP, the Human Development Index and the two wealth indices, for four definitions\n\n\ncodebook.csv\nevery column of every file, with its unit\n\n\nREADME.md, CITATION.cff, LICENSE, SHA256SUMS\ndocumentation, citation, license and checksums"
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html#definitions",
+    "href": "africa-middle-class-cell-data.html#definitions",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "Definitions",
+    "text": "Definitions\n\n\n\n\n\n\n\n\nDefinition\nBand in its source\nBand applied (2016 USD a day)\n\n\n\n\nBanerjee and Duflo (2008)\n$2–10 a day, 1993 ICP round\n$3.90–19.49\n\n\nKharas (2010)\n$10–100 a day, 2005 ICP round\n$16.84–168.41\n\n\nRavallion (2010)\n$2–13 a day, 2005 ICP round\n$3.37–21.89\n\n\n$2–6 bracket\n$2–6 a day, 2016 USD\n$2–6\n\n\n$10–50 bracket\n$10–50 a day, 2016 USD\n$10–50\n\n\n$50–100 bracket\n$50–100 a day, 2016 USD\n$50–100\n\n\n\nIncomes are per capita and per day, in constant 2016 US dollars at the purchasing power parities of the 2017 International Comparison Program, as the Gallup World Poll reports them. Every band includes its lower bound and excludes its upper bound. Banerjee and Duflo (2008) and Ravallion (2010) classify households by consumption, while the Gallup World Poll records income. The classes are therefore an income-based approximation to their concepts."
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html#method",
+    "href": "africa-middle-class-cell-data.html#method",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "Method",
+    "text": "Method\nFor each of 829 subnational regions in 45 countries with at least 30 respondents, we compute the survey-weighted share of respondents in each band. We relate these shares to 102 features of the regions: points of interest and networks from the Africa Infrastructure Database (Krantz, 2023), population and its age structure, night lights, travel times, gridded GDP per capita and the Human Development Index (Kummu et al., 2018), and two wealth indices (Lee and Braithwaite, 2022; Chi et al., 2022). A Super Learner combines five learners (gradient boosting, XGBoost, random forests, neural networks and a generalized linear model), with folds that leave out one country at a time. We then evaluate the fitted model at the features of each cell.\nWithin each district, or province where the data have no districts, one shift on the logit scale makes the population-weighted average of the cell predictions equal the ensemble’s prediction for that district. Population comes from WorldPop (Pezzulo et al., 2017), and from GHS-POP (Schiavina et al., 2023) where WorldPop records none (1,084 cells). The share times the population of a cell gives its number of middle-class people."
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html#accuracy",
+    "href": "africa-middle-class-cell-data.html#accuracy",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "Accuracy",
+    "text": "Accuracy\nIn cross-validation that leaves out one country at a time, the R² is 0.72 for the Banerjee and Duflo (2008) band and 0.62 for the Kharas (2010) band, and it lies between 0.49 and 0.72 across the six definitions. This measures accuracy in a country without survey data. For 172 test regions withheld from estimation, the R² lies between 0.65 and 0.88 on the logit scale on which the models are fit. These regions measure accuracy for new regions of surveyed countries. Both compare predictions with regional averages. Within countries, the model explains 46 percent of the variation in regional shares for the $2–10 band and 3 percent for the $10–100 band."
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html#reading-the-cells",
+    "href": "africa-middle-class-cell-data.html#reading-the-cells",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "Reading the cells",
+    "text": "Reading the cells\nThe cell values are predictions. Every survey share behind them is a regional average, and the models learn how features and middle-class shares move together across regions. The cell maps assume that the same relation holds within regions. The sums for districts, provinces and countries are the firmest numbers in the release, and the district shares equal the ensemble’s predictions for the districts by construction.\nThree groups of cells carry a flag. In ten countries (Angola, Cabo Verde, Djibouti, Equatorial Guinea, Eritrea, Guinea-Bissau, São Tomé and Príncipe, Seychelles, Sudan and Western Sahara), the cells rest on the relation estimated in other countries (surveyed_country is false). For 2,066 cells on coasts and lake shores whose center lies outside every administrative polygon, we use the nearest region of the same country (nearest_unit is true). For 1,084 cells, the population comes from GHS-POP (population_gapfilled is true). The columns model_sd_* give the standard deviation of the five learners’ predictions for a cell and rank cells by how much the learners disagree."
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html#sources-and-license",
+    "href": "africa-middle-class-cell-data.html#sources-and-license",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "Sources and license",
+    "text": "Sources and license\nThe middle-class shares rest on the Gallup World Poll, which is licensed. The release holds predictions for cells and administrative units, and the survey records stay with Gallup. Population is from WorldPop and GHS-POP, both under CC BY 4.0. The hexagons are the grid of the Africa Infrastructure Database (Krantz, 2023). Administrative codes and names follow GADM 4.1. The data are released under the Creative Commons Attribution 4.0 International license (CC BY 4.0)."
+  },
+  {
+    "objectID": "africa-middle-class-cell-data.html#the-atlas",
+    "href": "africa-middle-class-cell-data.html#the-atlas",
+    "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
+    "section": "The Atlas",
+    "text": "The Atlas\nThe African Middle-Class Atlas shows the same data as an interactive map, which follows with its launch."
+  },
+  {
+    "objectID": "economic-class-in-afrobarometer.html",
+    "href": "economic-class-in-afrobarometer.html",
+    "title": "Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation",
     "section": "",
-    "text": "My research asks who benefits from export booms in African economies: how much of a rise in world crop prices reaches farming households, how much the state retains, and how citizens’ demand for democracy responds. I also develop methods to measure household living standards where expenditure and administrative data are limited."
+    "text": "Working paper Last updated November 2026\nPaper · Data · Variable mapping and code"
   },
   {
-    "objectID": "research.html#job-market-paper",
-    "href": "research.html#job-market-paper",
-    "title": "Research",
-    "section": "Job Market Paper",
-    "text": "Job Market Paper\n\n\nWhere the Windfall Lands: Export Booms and the Demand for Democracy in Africa\nJob market paper Last updated November 2026\n\nI find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise.\n\nPaper\n\nDo economic windfalls strengthen popular demand for democracy? Modernization theory predicts that higher household incomes increase demand for democracy by reducing reliance on political patrons, while rentier theories predict that windfalls captured by the state reinforce patronage and dependence. I link 125,659 Afrobarometer respondents (2005–2022) in 2,198 districts of 22 African countries to baseline crop maps and world prices. In a shift-share design that controls for expected price exposure, I compare districts with higher and lower shares of residents employed in farming. I find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise. For a one-standard-deviation three-year boom, the response is 0.025 standard deviations higher in a district with a 25-percentage-point higher farming share (p = 0.061 under a randomization test over the six price series). This is consistent with windfalls supporting democracy where they reach households and equally with state patronage lowering demand where few residents farm."
+    "objectID": "economic-class-in-afrobarometer.html#abstract",
+    "href": "economic-class-in-afrobarometer.html#abstract",
+    "title": "Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation",
+    "section": "Abstract",
+    "text": "Abstract\n\n\nAfrobarometer, the principal pan-African attitude survey, omits consumption and income. As a result, the economic class of its respondents is unknown. I impute consumption into Afrobarometer using a model estimated on 49 household-expenditure surveys in 25 countries, with 100 draws per respondent calibrated to the World Bank’s national distributions. Each draw is classified under five published middle-class definitions, for adults in Rounds 8 and 9 (the adult series) and for households in Rounds 3 to 9 (the household series). In hold-out tests, the share at or above the Banerjee–Duflo upper bracket has a mean absolute error of 2.3 percentage points for an excluded survey wave and 7.0 for an excluded country. That share averages 28.5 percent across adult country-rounds, and bounded middle-class shares run from 9.8 to 68.5 percent across definitions. In the household series the middle-class share is higher by a median of 25.2 points in urban than in rural households and by 23.7 points for respondents with secondary education."
   },
   {
-    "objectID": "research.html#under-review",
-    "href": "research.html#under-review",
-    "title": "Research",
-    "section": "Under Review",
-    "text": "Under Review\n\n\nPreparing for FX Intervention\nwith Tobias Heidland and Lukas Menkhoff\nRevised and resubmitted, Journal of Money, Credit and Banking Last updated November 2026\n\nBetween 2001 and 2020, preparedness rose with more rigid regimes and larger reserves, while aggregate intervention did not keep pace.\n\nPaper\n\nMost central banks do not publish their foreign exchange interventions (FXI), but the preparations that enable their interventions are visible. We measure FXI preparedness through three policy decisions, namely the rigidity of the exchange rate regime, the level of official reserves relative to GDP and the share of reserves held in assets available for intervention. For the last of these, we build a new index from the IMF’s data on reserve composition. Better-prepared countries intervene more, so preparedness indicates a willingness to intervene where intervention data are not published. Between 2001 and 2020, preparedness rose with more rigid regimes and larger reserves, while aggregate intervention did not keep pace. Preparedness is higher in economies with lower income, greater trade openness and more volatile portfolio inflows."
+    "objectID": "economic-class-in-afrobarometer.html#keywords",
+    "href": "economic-class-in-afrobarometer.html#keywords",
+    "title": "Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation",
+    "section": "Keywords",
+    "text": "Keywords\nmiddle class, consumption, survey-to-survey imputation, multiple imputation, Afrobarometer, Africa\nJEL codes: C15 (Simulation Methods), C83 (Survey Methods), D31 (Income Distribution), I32 (Measurement of Poverty), O55 (Africa)"
   },
   {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Research",
-    "section": "Working Papers",
-    "text": "Working Papers\n\n\nEstimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation\nWorking paper Last updated November 2026\n\nIn hold-out tests, the share at or above the Banerjee–Duflo upper bracket has a mean absolute error of 2.3 percentage points for an excluded survey wave and 7.0 for an excluded country.\n\nPaper · Data · Variable mapping and code\n\nAfrobarometer, the principal pan-African attitude survey, omits consumption and income. As a result, the economic class of its respondents is unknown. I impute consumption into Afrobarometer using a model estimated on 49 household-expenditure surveys in 25 countries, with 100 draws per respondent calibrated to the World Bank’s national distributions. Each draw is classified under five published middle-class definitions, for adults in Rounds 8 and 9 (the adult series) and for households in Rounds 3 to 9 (the household series). In hold-out tests, the share at or above the Banerjee–Duflo upper bracket has a mean absolute error of 2.3 percentage points for an excluded survey wave and 7.0 for an excluded country. That share averages 28.5 percent across adult country-rounds, and bounded middle-class shares run from 9.8 to 68.5 percent across definitions. In the household series the middle-class share is higher by a median of 25.2 points in urban than in rural households and by 23.7 points for respondents with secondary education.\n\n\n\n\n\n\nMapping Africa’s Middle Class Across Space\nwith Tobias Heidland\nWorking paper Last updated November 2026\n\nIn leave-one-country-out cross-validation, the model explains 72 percent of the regional variation in the share of people living on $2–10 a day and 62 percent for $10–100 a day.\n\nPaper · Data\n\nWe provide the first highly granular mapping of the African middle class. Using incomes from the Gallup World Poll to calculate subnational middle-class shares in 45 countries between 2015 and 2023, infrastructure, night lights, population, and gridded measures of output and wealth, we then use a machine learning approach to predict shares for 159,698 populated cells. In leave-one-country-out cross-validation, the model explains 72 percent of the regional variation in the share of people living on $2–10 a day and 62 percent for $10–100 a day. Our approach cannot predict relative definitions well. We find that 20.2 percent of Africans fall in the $2–10 band and 2.6 percent in the $10–100 band. Two-thirds of both groups live within 300 km of the coast. Both are concentrated in regions where aid disbursements are small relative to GDP."
+    "objectID": "economic-class-in-afrobarometer.html#data",
+    "href": "economic-class-in-afrobarometer.html#data",
+    "title": "Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation",
+    "section": "Data",
+    "text": "Data\n\nEconomic Class of Afrobarometer Respondents: the class shares of every country and country-round under five published middle-class definitions, Rounds 3 to 9.\nHarmonized Afrobarometer Variables: a mapping of 1,897 round variables onto 386 common variables across Rounds 1 to 9, with the code that rebuilds the harmonized file."
+  },
+  {
+    "objectID": "where-the-windfall-lands.html",
+    "href": "where-the-windfall-lands.html",
+    "title": "Where the Windfall Lands: Export Booms and the Demand for Democracy in Africa",
+    "section": "",
+    "text": "Job market paper Last updated November 2026\nPaper"
+  },
+  {
+    "objectID": "where-the-windfall-lands.html#abstract",
+    "href": "where-the-windfall-lands.html#abstract",
+    "title": "Where the Windfall Lands: Export Booms and the Demand for Democracy in Africa",
+    "section": "Abstract",
+    "text": "Abstract\n\n\nDo economic windfalls strengthen popular demand for democracy? Modernization theory predicts that higher household incomes increase demand for democracy by reducing reliance on political patrons, while rentier theories predict that windfalls captured by the state reinforce patronage and dependence. I link 125,659 Afrobarometer respondents (2005–2022) in 2,198 districts of 22 African countries to baseline crop maps and world prices. In a shift-share design that controls for expected price exposure, I compare districts with higher and lower shares of residents employed in farming. I find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise. For a one-standard-deviation three-year boom, the response is 0.025 standard deviations higher in a district with a 25-percentage-point higher farming share (p = 0.061 under a randomization test over the six price series). This is consistent with windfalls supporting democracy where they reach households and equally with state patronage lowering demand where few residents farm."
+  },
+  {
+    "objectID": "where-the-windfall-lands.html#keywords",
+    "href": "where-the-windfall-lands.html#keywords",
+    "title": "Where the Windfall Lands: Export Booms and the Demand for Democracy in Africa",
+    "section": "Keywords",
+    "text": "Keywords\ndemocracy, modernization theory, commodity prices, shift-share design, middle class, Africa\nJEL codes: D72 (political processes), O13 (agriculture and natural resources), O55 (Africa), P16 (capitalist institutions and welfare state), Q17 (agriculture in international trade)"
+  },
+  {
+    "objectID": "jmp.html",
+    "href": "jmp.html",
+    "title": "Job market paper",
+    "section": "",
+    "text": "This address forwards to my job market paper on SSRN: Where the Windfall Lands: Export Booms and the Demand for Democracy in Africa."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "E-mail: sekou.metiki@kielinstitut.de\nI welcome questions on the papers and the data, and proposals for joint work on living standards in Africa and on the political economy of development."
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\n\n  \n    LinkedIn\n  \n  \n    GitHub\n  \n  \n    ORCID\n  \n  \n    Google Scholar"
+  },
+  {
+    "objectID": "contact.html#affiliations",
+    "href": "contact.html#affiliations",
+    "title": "Contact",
+    "section": "Affiliations",
+    "text": "Affiliations\nKiel Institute for the World Economy\nResearch Center International Development\nKiel University (CAU)\nPhD in Quantitative Economics"
+  },
+  {
+    "objectID": "contact.html#address",
+    "href": "contact.html#address",
+    "title": "Contact",
+    "section": "Address",
+    "text": "Address\nKiel Institute for the World Economy\nKiellinie 66\n24105 Kiel\nGermany"
+  },
+  {
+    "objectID": "data-products.html",
+    "href": "data-products.html",
+    "title": "Data and Atlas",
+    "section": "",
+    "text": "Three data releases on Zenodo accompany my papers on the middle class in Africa. The cell-level data rest on incomes from the Gallup World Poll, and the economic-class shares rest on consumption imputed into Afrobarometer. The two welfare measures differ, and each set of shares stands on its own."
+  },
+  {
+    "objectID": "data-products.html#the-african-middle-class-atlas",
+    "href": "data-products.html#the-african-middle-class-atlas",
+    "title": "Data and Atlas",
+    "section": "The African Middle-Class Atlas",
+    "text": "The African Middle-Class Atlas\nwith Tobias Heidland\n\nAn interactive map of Africa’s middle class: for every populated cell, the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells of 96 km²\n  55 countries\n  6 income definitions\n\nThe data behind the map are public on Zenodo: the predicted shares of every cell, 2015–2023, with sums by country, province and district. The interactive map follows with its launch. The method is described in Mapping Africa’s Middle Class Across Space.\nCell-level data: version 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998"
+  },
+  {
+    "objectID": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
+    "href": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
+    "title": "Data and Atlas",
+    "section": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "text": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9\n\nThe class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.\n\n\n  302,595 respondents in the household series, Rounds 3 to 9\n  100,113 respondents in the adult series, Rounds 8 and 9\n  49 household-expenditure surveys behind the model\n\nThe household series covers 42 countries and 215 country-rounds, and the adult series covers 39 countries and 73 country-rounds. The shares come from consumption imputed into Afrobarometer with a model estimated on 49 household-expenditure surveys in 25 countries. The respondent-level files are available on request under Afrobarometer’s terms. The method is described in Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nMetiki, S. (2026). Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453161.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
+  },
+  {
+    "objectID": "data-products.html#harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19",
+    "href": "data-products.html#harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19",
+    "title": "Data and Atlas",
+    "section": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
+    "text": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9\n\nA mapping of Afrobarometer’s questions across nine rounds, with the code that rebuilds the harmonized file.\n\n\n  1,897 round variables\n  386 common variables\n  9 rounds of Afrobarometer\n\nAfrobarometer’s round files name and code the same question differently across rounds. The record maps the 1,897 round variables that recur in at least two of Rounds 1 to 9 onto 386 common variables, with each round’s question text. It also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Files and method · Paper\n\n\nCite\n\nMetiki, S. (2026). Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453208.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
   },
   {
     "objectID": "index.html",
@@ -84,66 +245,136 @@
     "text": "Recent\n\n  Nov 2026Dissertation submitted at Kiel University\n  Nov 2026Three data releases on Zenodo\n  Nov 2026Preparing for FX Intervention resubmitted to the Journal of Money, Credit and Banking"
   },
   {
-    "objectID": "data-products.html",
-    "href": "data-products.html",
-    "title": "Data and Atlas",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Three data releases on Zenodo accompany my papers on the middle class in Africa. The cell-level data rest on incomes from the Gallup World Poll, and the economic-class shares rest on consumption imputed into Afrobarometer. The two welfare measures differ, and each set of shares stands on its own."
+    "text": "My research asks who benefits from export booms in African economies: how much of a rise in world crop prices reaches farming households, how much the state retains, and how citizens’ demand for democracy responds. I also develop methods to measure household living standards where expenditure and administrative data are limited."
   },
   {
-    "objectID": "data-products.html#the-african-middle-class-atlas",
-    "href": "data-products.html#the-african-middle-class-atlas",
-    "title": "Data and Atlas",
-    "section": "The African Middle-Class Atlas",
-    "text": "The African Middle-Class Atlas\nwith Tobias Heidland\n\nAn interactive map of Africa’s middle class: for every populated cell, the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells of 96 km²\n  55 countries\n  6 income definitions\n\nThe data behind the map are public on Zenodo: the predicted shares of every cell, 2015–2023, with sums by country, province and district. The interactive map follows with its launch. The method is described in Mapping Africa’s Middle Class Across Space.\nCell-level data: version 1.0 (November 2026), CC BY 4.0\nData · Paper\n\n\nCite\n\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998"
+    "objectID": "research.html#job-market-paper",
+    "href": "research.html#job-market-paper",
+    "title": "Research",
+    "section": "Job Market Paper",
+    "text": "Job Market Paper\n\n\nWhere the Windfall Lands: Export Booms and the Demand for Democracy in Africa\nJob market paper Last updated November 2026\n\nI find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise.\n\nPaper\n\nDo economic windfalls strengthen popular demand for democracy? Modernization theory predicts that higher household incomes increase demand for democracy by reducing reliance on political patrons, while rentier theories predict that windfalls captured by the state reinforce patronage and dependence. I link 125,659 Afrobarometer respondents (2005–2022) in 2,198 districts of 22 African countries to baseline crop maps and world prices. In a shift-share design that controls for expected price exposure, I compare districts with higher and lower shares of residents employed in farming. I find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise. For a one-standard-deviation three-year boom, the response is 0.025 standard deviations higher in a district with a 25-percentage-point higher farming share (p = 0.061 under a randomization test over the six price series). This is consistent with windfalls supporting democracy where they reach households and equally with state patronage lowering demand where few residents farm."
   },
   {
-    "objectID": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
-    "href": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
-    "title": "Data and Atlas",
-    "section": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
-    "text": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9\n\nThe class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.\n\n\n  302,595 respondents in the household series, Rounds 3 to 9\n  100,113 respondents in the adult series, Rounds 8 and 9\n  49 household-expenditure surveys behind the model\n\nThe household series covers 42 countries and 215 country-rounds, and the adult series covers 39 countries and 73 country-rounds. The shares come from consumption imputed into Afrobarometer with a model estimated on 49 household-expenditure surveys in 25 countries. The respondent-level files are available on request under Afrobarometer’s terms. The method is described in Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper\n\n\nCite\n\nMetiki, S. (2026). Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453161.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
+    "objectID": "research.html#under-review",
+    "href": "research.html#under-review",
+    "title": "Research",
+    "section": "Under Review",
+    "text": "Under Review\n\n\nPreparing for FX Intervention\nwith Tobias Heidland and Lukas Menkhoff\nRevised and resubmitted, Journal of Money, Credit and Banking Last updated November 2026\n\nBetween 2001 and 2020, preparedness rose with more rigid regimes and larger reserves, while aggregate intervention did not keep pace.\n\nPaper\n\nMost central banks do not publish their foreign exchange interventions (FXI), but the preparations that enable their interventions are visible. We measure FXI preparedness through three policy decisions, namely the rigidity of the exchange rate regime, the level of official reserves relative to GDP and the share of reserves held in assets available for intervention. For the last of these, we build a new index from the IMF’s data on reserve composition. Better-prepared countries intervene more, so preparedness indicates a willingness to intervene where intervention data are not published. Between 2001 and 2020, preparedness rose with more rigid regimes and larger reserves, while aggregate intervention did not keep pace. Preparedness is higher in economies with lower income, greater trade openness and more volatile portfolio inflows."
   },
   {
-    "objectID": "data-products.html#harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19",
-    "href": "data-products.html#harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19",
-    "title": "Data and Atlas",
-    "section": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
-    "text": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9\n\nA mapping of Afrobarometer’s questions across nine rounds, with the code that rebuilds the harmonized file.\n\n\n  1,897 round variables\n  386 common variables\n  9 rounds of Afrobarometer\n\nAfrobarometer’s round files name and code the same question differently across rounds. The record maps the 1,897 round variables that recur in at least two of Rounds 1 to 9 onto 386 common variables, with each round’s question text. It also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Paper\n\n\nCite\n\nMetiki, S. (2026). Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453208.\nMetiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039"
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\n\n\nEstimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation\nWorking paper Last updated November 2026\n\nIn hold-out tests, the share at or above the Banerjee–Duflo upper bracket has a mean absolute error of 2.3 percentage points for an excluded survey wave and 7.0 for an excluded country.\n\nPaper · Data · Variable mapping and code\n\nAfrobarometer, the principal pan-African attitude survey, omits consumption and income. As a result, the economic class of its respondents is unknown. I impute consumption into Afrobarometer using a model estimated on 49 household-expenditure surveys in 25 countries, with 100 draws per respondent calibrated to the World Bank’s national distributions. Each draw is classified under five published middle-class definitions, for adults in Rounds 8 and 9 (the adult series) and for households in Rounds 3 to 9 (the household series). In hold-out tests, the share at or above the Banerjee–Duflo upper bracket has a mean absolute error of 2.3 percentage points for an excluded survey wave and 7.0 for an excluded country. That share averages 28.5 percent across adult country-rounds, and bounded middle-class shares run from 9.8 to 68.5 percent across definitions. In the household series the middle-class share is higher by a median of 25.2 points in urban than in rural households and by 23.7 points for respondents with secondary education.\n\n\n\n\n\n\nMapping Africa’s Middle Class Across Space\nwith Tobias Heidland\nWorking paper Last updated November 2026\n\nIn leave-one-country-out cross-validation, the model explains 72 percent of the regional variation in the share of people living on $2–10 a day and 62 percent for $10–100 a day.\n\nPaper · Data\n\nWe provide the first highly granular mapping of the African middle class. Using incomes from the Gallup World Poll to calculate subnational middle-class shares in 45 countries between 2015 and 2023, infrastructure, night lights, population, and gridded measures of output and wealth, we then use a machine learning approach to predict shares for 159,698 populated cells. In leave-one-country-out cross-validation, the model explains 72 percent of the regional variation in the share of people living on $2–10 a day and 62 percent for $10–100 a day. Our approach cannot predict relative definitions well. We find that 20.2 percent of Africans fall in the $2–10 band and 2.6 percent in the $10–100 band. Two-thirds of both groups live within 300 km of the coast. Both are concentrated in regions where aid disbursements are small relative to GDP."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "E-mail: sekou.metiki@kielinstitut.de\nI welcome questions on the papers and the data, and proposals for joint work on living standards in Africa and on the political economy of development."
+    "text": "Download CV (PDF)\n\n  Your browser cannot display the PDF. Download it here."
   },
   {
-    "objectID": "contact.html#profiles",
-    "href": "contact.html#profiles",
-    "title": "Contact",
-    "section": "Profiles",
-    "text": "Profiles\n\n\n  \n    LinkedIn\n  \n  \n    GitHub\n  \n  \n    ORCID"
-  },
-  {
-    "objectID": "contact.html#affiliations",
-    "href": "contact.html#affiliations",
-    "title": "Contact",
-    "section": "Affiliations",
-    "text": "Affiliations\nKiel Institute for the World Economy\nResearch Center International Development\nKiel University (CAU)\nPhD in Quantitative Economics"
-  },
-  {
-    "objectID": "contact.html#address",
-    "href": "contact.html#address",
-    "title": "Contact",
-    "section": "Address",
-    "text": "Address\nKiel Institute for the World Economy\nKiellinie 66\n24105 Kiel\nGermany"
-  },
-  {
-    "objectID": "jmp.html",
-    "href": "jmp.html",
-    "title": "Job market paper",
+    "objectID": "atlas.html",
+    "href": "atlas.html",
+    "title": "The African Middle-Class Atlas",
     "section": "",
-    "text": "This address forwards to my job market paper on SSRN: Where the Windfall Lands: Export Booms and the Demand for Democracy in Africa."
+    "text": "This address forwards to the African Middle-Class Atlas."
+  },
+  {
+    "objectID": "preparing-for-fx-intervention.html",
+    "href": "preparing-for-fx-intervention.html",
+    "title": "Preparing for FX Intervention",
+    "section": "",
+    "text": "with Tobias Heidland and Lukas Menkhoff\nRevised and resubmitted, Journal of Money, Credit and Banking Last updated November 2026\nPaper"
+  },
+  {
+    "objectID": "preparing-for-fx-intervention.html#abstract",
+    "href": "preparing-for-fx-intervention.html#abstract",
+    "title": "Preparing for FX Intervention",
+    "section": "Abstract",
+    "text": "Abstract\n\n\nMost central banks do not publish their foreign exchange interventions (FXI), but the preparations that enable their interventions are visible. We measure FXI preparedness through three policy decisions, namely the rigidity of the exchange rate regime, the level of official reserves relative to GDP and the share of reserves held in assets available for intervention. For the last of these, we build a new index from the IMF’s data on reserve composition. Better-prepared countries intervene more, so preparedness indicates a willingness to intervene where intervention data are not published. Between 2001 and 2020, preparedness rose with more rigid regimes and larger reserves, while aggregate intervention did not keep pace. Preparedness is higher in economies with lower income, greater trade openness and more volatile portfolio inflows."
+  },
+  {
+    "objectID": "preparing-for-fx-intervention.html#keywords",
+    "href": "preparing-for-fx-intervention.html#keywords",
+    "title": "Preparing for FX Intervention",
+    "section": "Keywords",
+    "text": "Keywords\nexchange rate regime, foreign exchange intervention, emerging and developing economies\nJEL codes: F31 (foreign exchange), F33 (international monetary arrangements), E58 (central banks and their policies)"
+  },
+  {
+    "objectID": "mapping-africas-middle-class.html",
+    "href": "mapping-africas-middle-class.html",
+    "title": "Mapping Africa’s Middle Class Across Space",
+    "section": "",
+    "text": "with Tobias Heidland\nWorking paper Last updated November 2026\nPaper · Data"
+  },
+  {
+    "objectID": "mapping-africas-middle-class.html#abstract",
+    "href": "mapping-africas-middle-class.html#abstract",
+    "title": "Mapping Africa’s Middle Class Across Space",
+    "section": "Abstract",
+    "text": "Abstract\n\n\nWe provide the first highly granular mapping of the African middle class. Using incomes from the Gallup World Poll to calculate subnational middle-class shares in 45 countries between 2015 and 2023, infrastructure, night lights, population, and gridded measures of output and wealth, we then use a machine learning approach to predict shares for 159,698 populated cells. In leave-one-country-out cross-validation, the model explains 72 percent of the regional variation in the share of people living on $2–10 a day and 62 percent for $10–100 a day. Our approach cannot predict relative definitions well. We find that 20.2 percent of Africans fall in the $2–10 band and 2.6 percent in the $10–100 band. Two-thirds of both groups live within 300 km of the coast. Both are concentrated in regions where aid disbursements are small relative to GDP."
+  },
+  {
+    "objectID": "mapping-africas-middle-class.html#keywords",
+    "href": "mapping-africas-middle-class.html#keywords",
+    "title": "Mapping Africa’s Middle Class Across Space",
+    "section": "Keywords",
+    "text": "Keywords\nmiddle class, Africa, machine learning, small-area estimation, geospatial data\nJEL codes: D31 (income distribution), O55 (Africa), R12 (spatial distribution), C53 (prediction methods)"
+  },
+  {
+    "objectID": "mapping-africas-middle-class.html#data",
+    "href": "mapping-africas-middle-class.html#data",
+    "title": "Mapping Africa’s Middle Class Across Space",
+    "section": "Data",
+    "text": "Data\n\nMapping Africa’s Middle Class Across Space: cell-level data: predicted middle-class shares for 159,698 populated cells in 55 African countries, with sums by country, province and district.\nThe African Middle-Class Atlas: the same data as an interactive map, which follows with its launch."
+  },
+  {
+    "objectID": "afrobarometer-economic-class-data.html",
+    "href": "afrobarometer-economic-class-data.html",
+    "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "section": "",
+    "text": "The class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
+  },
+  {
+    "objectID": "afrobarometer-economic-class-data.html#the-release",
+    "href": "afrobarometer-economic-class-data.html#the-release",
+    "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "section": "The release",
+    "text": "The release\nAfrobarometer, the principal pan-African survey of public attitudes, records no consumption or income. The economic class of its respondents is therefore unknown. I impute consumption per person per day, in 2021 PPP dollars, into Afrobarometer respondents from a model estimated on 49 household-expenditure surveys from 25 countries. Each respondent receives 100 draws calibrated to the national distributions of the World Bank’s Poverty and Inequality Platform. Five published middle-class definitions then classify every draw on the same consumption scale: Banerjee and Duflo, Ravallion, López-Calva and Ortiz-Juárez, the African Development Bank, and Birdsall. The method is described in Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation.\nThe household series covers 302,595 respondents in 42 countries and 215 country-rounds of Rounds 3 to 9. The adult series covers 100,113 respondents in 39 countries and 73 country-rounds of Rounds 8 and 9, for adult citizens. In hold-out tests, the share at or above the Banerjee–Duflo upper bracket has a mean absolute error of 2.3 percentage points for an excluded survey wave and 7.0 for an excluded country."
+  },
+  {
+    "objectID": "afrobarometer-economic-class-data.html#files",
+    "href": "afrobarometer-economic-class-data.html#files",
+    "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "section": "Files",
+    "text": "Files\n\n\n\n\n\n\n\nFile\nContent\n\n\n\n\nmcd_africa_country_shares.csv\nclass shares of every country and country-round under all five definitions, with every standard-error component\n\n\nmcd_africa_adult_country_shares.csv\nnational shares of the adult series by country-round, with every standard-error component\n\n\nmcd_africa_adult_country_shares_reanchored.csv\nthe same shares under poverty lines re-anchored to the World Bank’s revised lines\n\n\nlineup_replicates.csv\nthe replicate level shifts of the line-up to the Poverty and Inequality Platform per country-round, from which the line-up term of a group of countries follows\n\n\nmodel_error_params.csv\nthe variance parameters of the model term for countries without a base survey, by class band\n\n\nfiles with the suffix _lean\nthe household series built without the satellite measures\n\n\nREADME.md, SCHEMA.md, CODEBOOK.md, release_example.R, MANIFEST.sha256\nthe application guide, the schema, the codebook of every column, a worked example in R and the checksums\n\n\n\nThe respondent-level draws, the continuous consumption panel and the sub-national estimates link to Afrobarometer respondents or derive from Afrobarometer’s restricted geocodes. I share them on request under Afrobarometer’s terms, after the requester has written to me with the intended use."
+  },
+  {
+    "objectID": "afrobarometer-economic-class-data.html#method",
+    "href": "afrobarometer-economic-class-data.html#method",
+    "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "section": "Method",
+    "text": "Method\nThe model predicts consumption from items that Afrobarometer shares with the base surveys: durable assets, education, urban residence and dwelling characteristics, with satellite measures at the respondent’s location or administrative area and national GDP. The draws carry the uncertainty of the model’s coefficients, of its country and area effects and of the residual. Part of the residual is shared within an enumeration area. Each draw is then calibrated to the Poverty and Inequality Platform’s national distribution for the country-round. The published thresholds are 2005 PPP dollars, converted to 2021 PPP with the ratio of US consumer prices, 1.3875.\nStandard errors combine sampling variance, imputation variance, the line-up’s level error and, where estimated, the model term. The files report each component separately. The shares in the release are already pooled over the draws. A statistic computed from the respondent draws is estimated in each draw and pooled by Rubin’s rules. A regression of an outcome on imputed class estimates an association with the model’s prediction."
+  },
+  {
+    "objectID": "afrobarometer-economic-class-data.html#sources",
+    "href": "afrobarometer-economic-class-data.html#sources",
+    "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "section": "Sources",
+    "text": "Sources\nThe release uses Afrobarometer data from Rounds 3 to 9, AidData’s geocoding of Afrobarometer (BenYishay et al., 2017), household-expenditure surveys obtained under their producers’ terms, and the World Bank’s Poverty and Inequality Platform."
+  },
+  {
+    "objectID": "afrobarometer-economic-class-data.html#related-data",
+    "href": "afrobarometer-economic-class-data.html#related-data",
+    "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+    "section": "Related data",
+    "text": "Related data\n\nHarmonized Afrobarometer Variables: the cross-round mapping of Afrobarometer’s variables on which the release builds, with the code that rebuilds the harmonized file.\nMapping Africa’s Middle Class Across Space: cell-level data: middle-class shares from Gallup World Poll incomes. The two welfare measures differ, consumption here and income there, and each set of shares stands on its own."
   }
 ]

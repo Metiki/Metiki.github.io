@@ -1,31 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sekoumetiki.com/atlas.html</loc>
-    <lastmod>2026-11-25T04:44:59.458Z</lastmod>
+    <loc>https://sekoumetiki.com/afrobarometer-harmonized-variables.html</loc>
+    <lastmod>2026-11-25T05:49:29.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/africa-middle-class-cell-data.html</loc>
+    <lastmod>2026-11-25T05:49:29.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/economic-class-in-afrobarometer.html</loc>
+    <lastmod>2026-11-25T05:47:54.566Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/where-the-windfall-lands.html</loc>
+    <lastmod>2026-11-25T05:47:54.565Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/contact.html</loc>
+    <lastmod>2026-11-25T07:42:44.633Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/data-products.html</loc>
+    <lastmod>2026-11-25T05:47:54.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/index.html</loc>
+    <lastmod>2026-11-25T07:42:44.633Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sekoumetiki.com/research.html</loc>
+    <lastmod>2026-11-25T05:47:54.327Z</lastmod>
   </url>
   <url>
     <loc>https://sekoumetiki.com/cv.html</loc>
     <lastmod>2026-11-25T04:44:59.460Z</lastmod>
   </url>
   <url>
-    <loc>https://sekoumetiki.com/research.html</loc>
-    <lastmod>2026-11-25T05:11:54.982Z</lastmod>
+    <loc>https://sekoumetiki.com/preparing-for-fx-intervention.html</loc>
+    <lastmod>2026-11-25T05:47:54.565Z</lastmod>
   </url>
   <url>
-    <loc>https://sekoumetiki.com/index.html</loc>
-    <lastmod>2026-11-25T05:26:33.450Z</lastmod>
+    <loc>https://sekoumetiki.com/mapping-africas-middle-class.html</loc>
+    <lastmod>2026-11-25T05:50:12.357Z</lastmod>
   </url>
   <url>
-    <loc>https://sekoumetiki.com/data-products.html</loc>
-    <lastmod>2026-11-25T05:11:54.982Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sekoumetiki.com/contact.html</loc>
-    <lastmod>2026-11-25T04:44:59.458Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sekoumetiki.com/jmp.html</loc>
-    <lastmod>2026-11-25T04:44:59.464Z</lastmod>
+    <loc>https://sekoumetiki.com/afrobarometer-economic-class-data.html</loc>
+    <lastmod>2026-11-25T05:51:19.200Z</lastmod>
   </url>
 </urlset>
