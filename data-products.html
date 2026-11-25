@@ -8,7 +8,7 @@
 
 <meta name="description" content="Open data on Zenodo: middle-class shares for 159,698 cells in 55 African countries, economic class in Afrobarometer, and a cross-round variable mapping.">
 
-<title>Data Products – Sékou Metiki</title>
+<title>Data and Atlas – Sékou Metiki</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,17 +27,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <link href="./www/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -47,20 +77,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-38603350f3dc843c4836efd40ad45da4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-01238334ae524ef024914bcc181f5910.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -79,15 +97,18 @@ ul.task-list li input[type="checkbox"] {
 <link rel="apple-touch-icon" href="www/apple-touch-icon.png">
 
 
-<meta property="og:title" content="Data Products – Sékou Metiki">
+<meta property="og:title" content="Data and Atlas – Sékou Metiki">
 <meta property="og:description" content="Open data on Zenodo: middle-class shares for 159,698 cells in 55 African countries, economic class in Afrobarometer, and a cross-round variable mapping.">
+<meta property="og:image" content="https://sekoumetiki.com/www/og-card.jpg">
 <meta property="og:site_name" content="Sékou Metiki">
-<meta name="twitter:title" content="Data Products – Sékou Metiki">
+<meta name="twitter:title" content="Data and Atlas – Sékou Metiki">
 <meta name="twitter:description" content="Open data on Zenodo: middle-class shares for 159,698 cells in 55 African countries, economic class in Afrobarometer, and a cross-round variable mapping.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sekoumetiki.com/www/og-card.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://sekoumetiki.com/data-products.html">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -98,7 +119,6 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Sékou Metiki</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -110,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./data-products.html" aria-current="page"> 
-<span class="menu-text">Data Products</span></a>
+<span class="menu-text">Data and Atlas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./cv.html"> 
@@ -120,6 +140,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./www/cv.pdf"> 
+<span class="menu-text">CV (PDF)</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -128,21 +152,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Products</h1>
+<h1 class="title">Data and Atlas</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -155,31 +179,125 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Three data releases on Zenodo accompany my papers on the middle class in Africa. The cell-level data rest on incomes from the Gallup World Poll, and the economic-class shares rest on consumption imputed into Afrobarometer. The two welfare measures differ, and each set of shares stands on its own.</p>
-<div id="cell-level-data" class="paper">
-<section id="mapping-africas-middle-class-across-space-cell-level-data" class="level3">
-<h3 class="anchored" data-anchor-id="mapping-africas-middle-class-across-space-cell-level-data">Mapping Africa’s Middle Class Across Space: cell-level data</h3>
-<p>with Tobias Heidland</p>
-<p><span class="venue">Version 1.0 (November 2026), CC BY 4.0</span></p>
+<div id="atlas" class="product feature feature-wide">
+<div class="feature-text">
+<p><span id="cell-level-data"></span></p>
+<section id="the-african-middle-class-atlas" class="level2">
+<h2 class="anchored" data-anchor-id="the-african-middle-class-atlas">The African Middle-Class Atlas</h2>
+<p><span class="byline">with Tobias Heidland</span></p>
+<div class="summary-line">
+<p>An interactive map of Africa’s middle class: for every populated cell, the share and the number of middle-class people under six income definitions.</p>
+</div>
+<ul class="stats">
+  <li><strong>159,698</strong> populated cells of 96 km²</li>
+  <li><strong>55</strong> countries</li>
+  <li><strong>6</strong> income definitions</li>
+</ul>
+<p>The data behind the map are public on Zenodo: the predicted shares of every cell, 2015–2023, with sums by country, province and district. The interactive map follows with its launch. The method is described in <a href="./research.html#mapping">Mapping Africa’s Middle Class Across Space</a>.</p>
+<p><span class="updated">Cell-level data: version 1.0 (November 2026), CC BY 4.0</span></p>
 <p><span class="links"><a href="https://doi.org/10.5281/zenodo.24451402">Data (Zenodo)</a> · <a href="https://www.ssrn.com/abstract=7686998">Paper (SSRN)</a></span></p>
-<p>Predicted middle-class shares for 159,698 populated cells of 96 km² in 55 African countries, under six income definitions, 2015–2023, with sums by country, province and district. The method is described in <a href="./research.html#mapping">Mapping Africa’s Middle Class Across Space</a>.</p>
+<details class="more">
+<summary>
+Cite
+</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Heidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Heidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </section>
 </div>
-<div id="middle-class-shares" class="paper">
-<section id="economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39" class="level3">
-<h3 class="anchored" data-anchor-id="economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39">Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9</h3>
-<p><span class="venue">Version 1.0 (November 2026), CC BY 4.0</span></p>
+<div class="feature-media">
+<p><img src="www/atlas/atlas-map.jpg" alt="The Atlas: a map of Africa with a bar on every populated cell for its number of middle-class people, with a legend, the map settings and the totals for Africa" width="1100" height="496" loading="lazy"></p>
+</div>
+</div>
+<div id="middle-class-shares" class="product">
+<section id="economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39" class="level2">
+<h2 class="anchored" data-anchor-id="economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39">Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9</h2>
+<div class="summary-line">
+<p>The class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.</p>
+</div>
+<ul class="stats stats-long">
+  <li><strong>302,595</strong> respondents in the household series, Rounds 3 to 9</li>
+  <li><strong>100,113</strong> respondents in the adult series, Rounds 8 and 9</li>
+  <li><strong>49</strong> household-expenditure surveys behind the model</li>
+</ul>
+<p>The household series covers 42 countries and 215 country-rounds, and the adult series covers 39 countries and 73 country-rounds. The shares come from consumption imputed into Afrobarometer with a model estimated on 49 household-expenditure surveys in 25 countries. The respondent-level files are available <a href="./contact.html">on request</a> under Afrobarometer’s terms. The method is described in <a href="./research.html#afrobarometer">Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation</a>.</p>
+<p><span class="updated">Version 1.0 (November 2026), CC BY 4.0</span></p>
 <p><span class="links"><a href="https://doi.org/10.5281/zenodo.24453160">Data (Zenodo)</a> · <a href="https://www.ssrn.com/abstract=7687039">Paper (SSRN)</a></span></p>
-<p>The class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors. The household series covers 302,595 respondents in 42 countries and 215 country-rounds of Rounds 3 to 9, and the adult series covers 100,113 respondents in 39 countries and 73 country-rounds of Rounds 8 and 9. The shares come from consumption imputed into Afrobarometer with a model estimated on 49 household-expenditure surveys in 25 countries. The respondent-level files are available <a href="./contact.html">on request</a> under Afrobarometer’s terms. The method is described in <a href="./research.html#afrobarometer">Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation</a>.</p>
+<details class="more">
+<summary>
+Cite
+</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Metiki, S. (2026). Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453161.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Metiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </section>
 </div>
-<div id="harmonized-variables" class="paper">
-<section id="harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19" class="level3">
-<h3 class="anchored" data-anchor-id="harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19">Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9</h3>
-<p><span class="venue">Version 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0</span></p>
-<p><span class="links"><a href="https://doi.org/10.5281/zenodo.24453207">Mapping and code (Zenodo)</a> · <a href="https://www.ssrn.com/abstract=7687039">Paper (SSRN)</a></span></p>
+<div id="harmonized-variables" class="product">
+<section id="harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19" class="level2">
+<h2 class="anchored" data-anchor-id="harmonized-afrobarometer-variables-cross-round-mapping-and-comparability-codes-rounds-19">Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9</h2>
+<div class="summary-line">
+<p>A mapping of Afrobarometer’s questions across nine rounds, with the code that rebuilds the harmonized file.</p>
+</div>
+<ul class="stats">
+  <li><strong>1,897</strong> round variables</li>
+  <li><strong>386</strong> common variables</li>
+  <li><strong>9</strong> rounds of Afrobarometer</li>
+</ul>
 <p>Afrobarometer’s round files name and code the same question differently across rounds. The record maps the 1,897 round variables that recur in at least two of Rounds 1 to 9 onto 386 common variables, with each round’s question text. It also codes the comparability of the consumption model’s predictors by round and holds the code that rebuilds the harmonized file. The code runs on the round files that users download from Afrobarometer.</p>
+<p><span class="updated">Version 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0</span></p>
+<p><span class="links"><a href="https://doi.org/10.5281/zenodo.24453207">Mapping and code (Zenodo)</a> · <a href="https://www.ssrn.com/abstract=7687039">Paper (SSRN)</a></span></p>
+<details class="more">
+<summary>
+Cite
+</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Metiki, S. (2026). Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9, version 1.0 [dataset]. Zenodo. https://doi.org/10.5281/zenodo.24453208.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>Metiki, S. (2026). Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation. SSRN Working Paper. https://www.ssrn.com/abstract=7687039</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
 </section>
 </div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "name": "Mapping Africa's Middle Class Across Space: cell-level data",
+      "description": "Predicted middle-class shares for 159,698 populated cells of 96 km² in 55 African countries, under six income definitions, 2015–2023, with sums by country, province and district.",
+      "url": "https://doi.org/10.5281/zenodo.24451402",
+      "identifier": "https://doi.org/10.5281/zenodo.24451403",
+      "version": "1.0",
+      "datePublished": "2026-11-23",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": [
+        { "@type": "Person", "name": "Tobias Heidland" },
+        { "@type": "Person", "name": "Sékou Metiki", "url": "https://sekoumetiki.com/" }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
+      "description": "The class shares of every country and country-round under five published middle-class definitions, with each component of their standard errors.",
+      "url": "https://doi.org/10.5281/zenodo.24453160",
+      "identifier": "https://doi.org/10.5281/zenodo.24453161",
+      "version": "1.0",
+      "datePublished": "2026-11-23",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": [{ "@type": "Person", "name": "Sékou Metiki", "url": "https://sekoumetiki.com/" }]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
+      "description": "A mapping of the 1,897 round variables that recur in at least two of Afrobarometer's Rounds 1 to 9 onto 386 common variables, with the code that rebuilds the harmonized file.",
+      "url": "https://doi.org/10.5281/zenodo.24453207",
+      "identifier": "https://doi.org/10.5281/zenodo.24453208",
+      "version": "1.0",
+      "datePublished": "2026-11-23",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": [{ "@type": "Person", "name": "Sékou Metiki", "url": "https://sekoumetiki.com/" }]
+    }
+  ]
+}
+</script>
 
 
 
@@ -596,7 +714,8 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© Sékou Metiki 2026</p>
+<p><a href="mailto:sekou.metiki@kielinstitut.de">E-mail</a> · <a href="https://www.linkedin.com/in/dieudonn%C3%A9-metiki-0b24941b2/">LinkedIn</a> · <a href="https://github.com/Metiki">GitHub</a> · <a href="https://orcid.org/0009-0005-5144-4861">ORCID</a></p>
+<p>© Sékou Metiki 2026 · Last updated November 2026</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
