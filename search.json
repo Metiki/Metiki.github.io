@@ -4,7 +4,7 @@
     "href": "afrobarometer-harmonized-variables.html",
     "title": "Harmonized Afrobarometer Variables: Cross-Round Mapping and Comparability Codes, Rounds 1–9",
     "section": "",
-    "text": "This release maps Afrobarometer’s questions across nine rounds and includes the code that rebuilds the harmonized file.\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Paper"
+    "text": "All data\nVersion 1.0 (November 2026), code under the MIT license, mapping and documentation under CC BY 4.0\nMapping and code · Paper"
   },
   {
     "objectID": "afrobarometer-harmonized-variables.html#the-release",
@@ -39,7 +39,7 @@
     "href": "africa-middle-class-cell-data.html",
     "title": "Mapping Africa’s Middle Class Across Space: cell-level data",
     "section": "",
-    "text": "with Tobias Heidland\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
+    "text": "All data\nwith Tobias Heidland\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
   },
   {
     "objectID": "africa-middle-class-cell-data.html#the-release",
@@ -95,7 +95,7 @@
     "href": "economic-class-in-afrobarometer.html",
     "title": "Estimating Economic Class in Afrobarometer Using Survey-to-Survey Imputation",
     "section": "",
-    "text": "Working paper Last updated November 2026\nPaper · Data · Variable mapping and code"
+    "text": "All papers\nWorking paper Last updated November 2026\nPaper · Data · Variable mapping and code"
   },
   {
     "objectID": "economic-class-in-afrobarometer.html#abstract",
@@ -123,7 +123,7 @@
     "href": "where-the-windfall-lands.html",
     "title": "Where the Windfall Lands: Export Booms and the Demand for Democracy in Africa",
     "section": "",
-    "text": "Job market paper Last updated November 2026\nPaper"
+    "text": "All papers\nJob market paper Last updated November 2026\nPaper"
   },
   {
     "objectID": "where-the-windfall-lands.html#abstract",
@@ -186,7 +186,7 @@
     "href": "data-products.html#the-african-middle-class-atlas",
     "title": "Data and Atlas",
     "section": "The African Middle-Class Atlas",
-    "text": "The African Middle-Class Atlas\nwith Tobias Heidland\n\nThe Atlas is an interactive map that shows where Africa’s middle class lives. For every populated cell of the continent, it gives the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells of 96 km²\n  55 countries\n  6 income definitions\n\nThe map can be used to locate consumer markets and to study market size and firm location. Its data are public on Zenodo: the predicted shares of every cell for the period 2015–2023, with sums by country, province and district. The map itself will be linked here when it goes online. The paper Mapping Africa’s Middle Class Across Space describes the method.\nCell-level data: version 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998"
+    "text": "The African Middle-Class Atlas\nwith Tobias Heidland\n\nThe Atlas is an interactive map that shows where Africa’s middle class lives. For every populated cell of the continent, it gives the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells of 96 km²\n  55 countries\n  6 income definitions\n\nThe map can be used to locate consumer markets and to study market size and firm location. Its data are public on Zenodo: the predicted shares of every cell for the period 2015–2023, with sums by country, province and district. The paper Mapping Africa’s Middle Class Across Space describes the method.\nCell-level data: version 1.0 (November 2026), CC BY 4.0\nData · Files and method · Paper\n\n\nCite\n\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space: cell-level data, version 1.0. https://doi.org/10.5281/zenodo.24451403\nHeidland, T. and S. Metiki (2026). Mapping Africa's Middle Class Across Space. Working paper, Kiel Institute for the World Economy. https://www.ssrn.com/abstract=7686998"
   },
   {
     "objectID": "data-products.html#economic-class-of-afrobarometer-respondents-imputed-consumption-under-five-middle-class-definitions-rounds-39",
@@ -207,14 +207,7 @@
     "href": "index.html",
     "title": "Sékou Metiki",
     "section": "",
-    "text": "Photo: © Kiel Institute / Michael Stefan\n\n\n\nSékou Metiki\n\n\nJob market candidate 2026/27\n\n\n\n\nI estimate where Africa’s middle class lives and who belongs to it, and I ask whether export booms strengthen citizens’ demand for democracy.\n\n\n  Curriculum vitae\n  Job market paper\n  E-mail\n\n\nPhoto: © Kiel Institute / Michael Stefan"
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Sékou Metiki",
-    "section": "About",
-    "text": "About\nI am a researcher at the Kiel Institute for the World Economy and a doctoral candidate in Quantitative Economics at Kiel University, where I submitted my dissertation in November 2026. My research is in development economics and political economy, and most of it is on African countries.\nMost African countries lack the tax and administrative-register data used to record incomes in high-income countries, and household surveys that measure consumption are expensive and infrequent. Much of my work therefore starts with measurement. With Tobias Heidland, I map where Africa’s middle class lives: a machine-learning model predicts middle-class shares for almost 160,000 populated cells from survey incomes, infrastructure, night lights and population data. In a second paper, I impute household consumption into Afrobarometer, the principal pan-African attitude survey. The data of both papers are public on Zenodo.\nI use these measures to study how economic gains relate to political attitudes. My job market paper asks whether citizens’ demand for democracy changes when export gains are more likely to reach households. A separate paper with Tobias Heidland and Lukas Menkhoff measures how central banks prepare for foreign exchange intervention and has been revised and resubmitted to the Journal of Money, Credit and Banking."
+    "text": "Photo: © Kiel Institute / Michael Stefan\n\n\n\nSékou Metiki\n\n\nJob market candidate 2026/27\n\n\n\n\nI estimate where Africa’s middle class lives and who belongs to it, and I ask whether export booms strengthen citizens’ demand for democracy.\n\n\n  CV (PDF)\n  Job market paper\n  E-mail\n\n\nPhoto: © Kiel Institute / Michael Stefan"
   },
   {
     "objectID": "index.html#job-market-paper",
@@ -224,11 +217,18 @@
     "text": "Job market paper\n\n\nWhere the Windfall Lands: Export Booms and the Demand for Democracy in Africa\n\nI find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise.\n\nPaper\n\n\nAbstract\n\n\nDo economic windfalls strengthen popular demand for democracy? Modernization theory predicts that higher household incomes increase demand for democracy by reducing reliance on political patrons, while rentier theories predict that windfalls captured by the state reinforce patronage and dependence. I link 125,659 Afrobarometer respondents (2005–2022) in 2,198 districts of 22 African countries to baseline crop maps and world prices. In a shift-share design that controls for expected price exposure, I compare districts with higher and lower shares of residents employed in farming. I find that demand for democracy rises more in districts where more residents farm when world prices of their export crops rise. For a one-standard-deviation three-year boom, the response is 0.025 standard deviations higher in a district with a 25-percentage-point higher farming share (p = 0.061 under a randomization test over the six price series). This is consistent with windfalls supporting democracy where they reach households and equally with state patronage lowering demand where few residents farm."
   },
   {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Sékou Metiki",
+    "section": "About",
+    "text": "About\nI am a researcher at the Kiel Institute for the World Economy and a doctoral candidate in Quantitative Economics at Kiel University, where I submitted my dissertation in November 2026. My research is in development economics and political economy, and most of it is on African countries.\nMost African countries lack the tax and administrative-register data used to record incomes in high-income countries, and household surveys that measure consumption are expensive and infrequent. Much of my work therefore starts with measurement. With Tobias Heidland, I map where Africa’s middle class lives: a machine-learning model predicts middle-class shares for almost 160,000 populated cells from survey incomes, infrastructure, night lights and population data. In a second paper, I impute household consumption into Afrobarometer, the principal pan-African attitude survey. The data of both papers are public on Zenodo.\nI use these measures to study how economic gains relate to political attitudes. My job market paper asks whether citizens’ demand for democracy changes when export gains are more likely to reach households. A separate paper with Tobias Heidland and Lukas Menkhoff measures how central banks prepare for foreign exchange intervention and has been revised and resubmitted to the Journal of Money, Credit and Banking."
+  },
+  {
     "objectID": "index.html#interactive-map",
     "href": "index.html#interactive-map",
     "title": "Sékou Metiki",
     "section": "Interactive map",
-    "text": "Interactive map\n\n\nThe African Middle-Class Atlas\nwith Tobias Heidland\n\nThe Atlas is an interactive map that shows where Africa’s middle class lives. For every populated cell of the continent, it gives the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells\n  55 countries\n  6 income definitions\n\nThe data behind the map are public on Zenodo (version 1.0, 23 November 2026). The map itself will be linked here when it goes online.\nData · Paper"
+    "text": "Interactive map\n\n\nThe African Middle-Class Atlas\nwith Tobias Heidland\n\nThe Atlas is an interactive map that shows where Africa’s middle class lives. For every populated cell of the continent, it gives the share and the number of middle-class people under six income definitions.\n\n\n  159,698 populated cells\n  55 countries\n  6 income definitions\n\nThe data behind the map are public on Zenodo (version 1.0, 23 November 2026).\nData · Paper\n\n\n\nPreview of the map. The map itself will be linked here when it goes online."
   },
   {
     "objectID": "index.html#more-research",
@@ -298,7 +298,7 @@
     "href": "preparing-for-fx-intervention.html",
     "title": "Preparing for FX Intervention",
     "section": "",
-    "text": "with Tobias Heidland and Lukas Menkhoff\nRevised and resubmitted, Journal of Money, Credit and Banking Last updated November 2026\nPaper"
+    "text": "All papers\nwith Tobias Heidland and Lukas Menkhoff\nRevised and resubmitted, Journal of Money, Credit and Banking Last updated November 2026\nPaper"
   },
   {
     "objectID": "preparing-for-fx-intervention.html#abstract",
@@ -319,7 +319,7 @@
     "href": "mapping-africas-middle-class.html",
     "title": "Mapping Africa’s Middle Class Across Space",
     "section": "",
-    "text": "with Tobias Heidland\nWorking paper Last updated November 2026\nPaper · Data"
+    "text": "All papers\nwith Tobias Heidland\nWorking paper Last updated November 2026\nPaper · Data"
   },
   {
     "objectID": "mapping-africas-middle-class.html#abstract",
@@ -347,7 +347,7 @@
     "href": "afrobarometer-economic-class-data.html",
     "title": "Economic Class of Afrobarometer Respondents: Imputed Consumption under Five Middle-Class Definitions, Rounds 3–9",
     "section": "",
-    "text": "The release gives the class shares of every country and country-round of Afrobarometer under five published middle-class definitions, with each component of their standard errors.\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
+    "text": "All data\nVersion 1.0 (November 2026), CC BY 4.0\nData · Paper"
   },
   {
     "objectID": "afrobarometer-economic-class-data.html#the-release",
